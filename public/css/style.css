@@ -1,0 +1,23 @@
+.body {
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #cae8d5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 2em;
+  margin: auto;
+  border-radius: 5em;
+  scale: 10em;
+  background: rgb(132,169,172);
+background: radial-gradient(circle, rgba(132,169,172,0.5) 22%, rgba(59,105,120,0.5) 78%, rgba(32,64,81,0.5) 100%);
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
